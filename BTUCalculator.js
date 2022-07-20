@@ -30,10 +30,10 @@ function getBTU() {
     let repeat = prompt("Would you like to do another calculation? (Enter yes or no) ");
     console.log('')
 
-    if (repeat == "yes") {
+    if (repeat.toLowerCase() == "yes") {
         getBTU();
     }
-    if (repeat == "no") {
+    if (repeat.toLowerCase() == "no") {
         process.exit();
     }
 
